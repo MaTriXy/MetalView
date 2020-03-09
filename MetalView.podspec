@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "12.3"
 
   s.source = {
-    :git => "https://github.com/eugenebokhan/MTLVideoTextureView.git",
+    :git => "https://github.com/eugenebokhan/MetalView.git",
     :tag => "#{s.version}"
   }
   s.source_files = "Sources/**/*.{swift,metal}"
