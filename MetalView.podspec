@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     "Eugene Bokhan" => "eugenebokhan@protonmail.com"
   }
 
-  s.ios.deployment_target = "12.3"
+  s.ios.deployment_target = "13.0"
 
   s.source = {
     :git => "https://github.com/eugenebokhan/MetalView.git",
