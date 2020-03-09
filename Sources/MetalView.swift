@@ -1,5 +1,6 @@
 import Alloy
 import UIKit
+import simd
 import SwiftMath
 
 public class MetalView: UIView {
