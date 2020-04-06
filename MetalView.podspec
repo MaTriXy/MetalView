@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "MetalView"
-  s.version = "1.0.0"
+  s.version = "1.0.1"
 
   s.summary = "A view with custom core animation metal layer"
   s.homepage = "https://github.com/eugenebokhan/MetalView"
@@ -17,8 +17,8 @@ Pod::Spec.new do |s|
   }
   s.source_files = "Sources/**/*.{swift,metal}"
 
-  s.swift_version = "5.1"
+  s.swift_version = "5.2"
 
-  s.dependency "Alloy", "~> 0.13.2"
+  s.dependency "Alloy", "~> 0.14.1"
   s.dependency "SwiftMath", "~> 3.2.1"
 end
